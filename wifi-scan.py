@@ -24,6 +24,5 @@ clavewifi = raw_input("Introduzca la clave de la red WiFi:")
 
 os.system('nmcli d wifi connect "' + wifiseleccionada + '" password "' + clavewifi + '" iface ' + tarjetawifi)
 os.system('nmcli c up "' + wifiseleccionada + '"')
-print "Se ha conectado a la red " + wifiseeccionada + " correctamente."
 
                                                                                        
